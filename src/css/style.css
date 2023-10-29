@@ -1,0 +1,132 @@
+/* style.css */
+body {
+  text-align: center;
+}
+.container {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  height: 800px;
+  margin-top: 5.9%;
+  margin-left : 25%;
+}
+.images {
+ /* background-color: red;*/
+  height: 250px;
+  weight: 300px;
+  border: solid 3px red;
+  display: flex;
+  flex-direction: row;
+  /*box-shadow: 5px 10px #888888;*/
+  /*-webkit-box-reflect: below;*/
+
+  
+}
+.part-1{
+  border: solid 3px green;
+  height: 250px;
+  width: 270px;
+}
+.part-2{
+  border: solid 3px green;
+  height: 250px;
+  width: 270px;
+}
+.temp {
+  border: solid 3px orange;
+}
+img {
+  
+  border: solid 3px black;
+  height: 100%;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.bottom {
+  border: solid 3px violet;
+  width: 99%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.bottom-left {
+  border: solid 3px red;
+  height: 300px;
+  width: 60%;
+}
+.bottom-right {
+  border: solid 3px blue;
+  height: 300px;
+  width: 40%;
+  
+}
+.Edit {
+ 
+  padding: 6px;
+  padding-top: 9px;
+  height: 40px;
+  width: 70px;
+  
+}
+.search-box {
+  margin-bottom: 20px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+
+}
+input {
+  height: 40px;
+  width: 350px;
+  margin-left: 40px;
+}
+.date_edit {
+  border: solid 3px red;
+  margin-left: 20px;
+  height: 34px;
+}
+h2 {
+  margin: 0px;
+}
+.search-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-info {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.weather-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.weather-info svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.weather-info h1 {
+  font-size: 36px;
+}
+
+.weather-info h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.hover:search-box {
+  transform : scale(1.5);
+}
